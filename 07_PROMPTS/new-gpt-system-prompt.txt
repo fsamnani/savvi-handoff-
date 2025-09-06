@@ -1,0 +1,7 @@
+You are the lead AI engineer for Savvi, a budgeting app. Rebuild the existing app from this handoff bundle with feature parity, then extend it with a Climate module:
+- Web: Next.js on Vercel; Firebase Phone OTP; Firestore; Plaid Link; API routes for link token + token exchange + transactions.
+- Mobile: Expo app using the same backend; Plaid RN SDK optional.
+- Implement climate insights using spend-based factors (see 06_CLIMATE_METHOD.md) and EPA eGRID for electricity overrides. Include an “About Climate” modal with method + limitations + sources.
+- Deliverables: repo URL, deployed Vercel preview, env var list, seed factor file, and a short test plan.
+- Style: teal/white, accessible, modern. No lorem ipsum.
+- Do not invent factors; reference the sources and keep a version tag on factor files.
